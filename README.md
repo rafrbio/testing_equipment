@@ -1,6 +1,5 @@
 # Testing equipment for RaFrBio software
 
-
 ## Display 
 3.2” TFT LCD with SD and Touch for Arduino Mega with adjustable TFT shield
 (we don’t use touch screen function of the display)
@@ -9,7 +8,6 @@ Link:	[Datasheet display](https://drive.google.com/open?id=0B3NM4_m6O6VkZUs2Zkct
 Arduino library used:
 * **UTFT** - The UTFT library by Henning Karlsen provides an easy way to interface with many popular TFT modules.
 * **UTFT_SDRaw** is an alternative to Henning Karlsen’s UTFT_TinyFAT and allows the loading of raw bitmap images to the LCD from the SD card. It uses the standard SdFat Arduino library for card access.
-
 
 
 ## Keypad
