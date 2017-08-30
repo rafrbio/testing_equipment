@@ -33,4 +33,4 @@ It function as 3 keys: right rotation, left rotation and pressing
 
 
 ## Schematic
-See the link for schematics: [Schematics] (https://drive.google.com/open?id=0B7P0y6jUr96xZUoweGF4eUUxajA)
+See the link for schematics: [Schematics](https://drive.google.com/open?id=0B7P0y6jUr96xZUoweGF4eUUxajA)
