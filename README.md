@@ -27,9 +27,11 @@ BEEPER -> Arduino PIN 9
 
 
 ## Encoder
-It function as 3 keys: right rotation, left rotation and pressing
+PRESS    -> Arduino PIN X
+A switch -> Arduino PIN 2
+B switch -> Arduino PIN 3
 
-[Pinout not defined yet]
+The two switches are closed or open at every step of the encoder with a time delay between the two switches, the first that switch determines the direction of the rotation (CW -> A-B or CCW -> B-A)
 
 
 ## Schematic
