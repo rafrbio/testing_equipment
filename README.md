@@ -34,7 +34,9 @@ B switch -> Arduino PIN 3
 The two switches are closed or open at every step of the encoder with a time delay between the two switches, the first that switch determines the direction of the rotation (CW -> A-B or CCW -> B-A). 
 
 
-'''
+```
+Encoder schematics:
+
       ___5V__
       |    |__________ PIN 2   
       |_______________ PIN 3
@@ -43,7 +45,7 @@ The two switches are closed or open at every step of the encoder with a time del
       |____|
         |
        \\\
-'''
+```
 
 ## Schematic
 See the link for schematics: [Schematics](https://drive.google.com/open?id=0B7P0y6jUr96xZUoweGF4eUUxajA)
