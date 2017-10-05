@@ -20,10 +20,10 @@ KEY 3 -> Arduino PIN 13
 KEY 4 -> Arduino PIN 12
 
 
-## Beeper
-If HIGH it makes “beep”, if LOW it doesn’t make noise
+## Piezo resonator
+Use the ARDUINO function tone to generate any kind of sound. Refer to Arduuno documentation for details of the function.
 
-BEEPER -> Arduino PIN 9
+PIEZO -> Arduino PIN 9
 
 
 ## Encoder
@@ -35,9 +35,14 @@ The two switches are closed or open at every step of the encoder with a time del
 
 
 ```
-Encoder schematics:
+Encoder connection schematics:
 
       ___5V__
+      |    |
+      \    \
+      / R  / R
+      \    \
+      |    |
       |    |__________ PIN 2   
       |_______________ PIN 3
       |    |
