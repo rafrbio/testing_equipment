@@ -1,0 +1,8 @@
+// ------------------ Function for single value of data transmission ---------------
+void arduino2pcSingleValue(float data1[],int index)
+{
+    Serial.println(data1[index]); // send data through serial (data is of float type, thus it has 4 digit precision)
+ //   delay(10); // delay introduced because when running the Matlab script it may happen that the first 2 or 3 value are all read at once, causing an error when running the script,
+               // by introducing this delay the problem is avoided
+}
+//

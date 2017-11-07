@@ -1,0 +1,22 @@
+//
+// ------------------ Moving average function
+float movingAverage(float input[], int num_elem, int index)
+{
+  float avg=0;
+  int counter=0;
+  float sum=0;
+  if (index < num_elem)
+  {
+    avg=input[index]; // if we have not enough elements we don't compute the average
+  }
+  else
+  {
+    for (counter=0; counter<num_elem; counter++) 
+    {
+      sum+=input[index-counter];
+    }
+    avg=sum/num_elem;
+  }
+  return avg;
+}
+//

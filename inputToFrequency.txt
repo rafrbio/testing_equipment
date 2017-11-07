@@ -1,0 +1,9 @@
+//
+//INPUT TO FREQUENCY
+float inputToFrequency (int input) {
+  // define a proportionality factor, here set to 1
+  float Factor=1;
+  float out = float(input) ;
+  out= Factor * out;
+  return out;
+}

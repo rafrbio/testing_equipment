@@ -1,0 +1,9 @@
+//
+//FREQUENCY TO CONCENTRATION
+float frequencyToConcentration (float in_freq) {
+  // define a calibration curve
+  float a=2.06;
+  float b=3.2;
+  float out=in_freq*b+a;
+  return out;
+}
